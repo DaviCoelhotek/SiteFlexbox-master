@@ -1,0 +1,94 @@
+/* Reset e base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  line-height: 1.6; 
+  background-color: #dbcccc;
+  color: #333;
+}
+
+h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #333;
+  color: rgb(255, 255, 255);
+  padding: 20px 0;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none ;
+  transition: color 0.3s;
+}
+
+.menu a:hover {
+  color: #1900ff;
+}
+
+/* Conteúdo principal */
+main {
+  padding: 40px 0;
+}
+
+.card-container {
+  display:grid;
+  gap: 20px;
+  flex-wrap:wrap; /* Responsivo */
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  flex: 1;
+  min-width: 250px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  transition: transform 0.5s;
+}
+
+.card:hover {
+  transform: translateY(10px);
+}
+
+/* Rodapé */
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+h2{
+  margin: 20px;  
+}
+img{
+    margin-left: 200px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
